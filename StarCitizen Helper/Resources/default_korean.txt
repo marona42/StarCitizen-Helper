@@ -45,17 +45,17 @@ PackUpdateNameT = 언어 팩
 UpdateComplete = {0} 다운로드 완료
 FileGameExec = 게임 실행 파일
 FileGameExecT = 게임 실행 파일
-Additional = Additional
-Yes = Yes
-No = No
+Additional = 추가
+Yes = 예
+No = 아니오
 Ok = OK
-Cancel = Cancel
-Retry = Retry
-Ignore = Ignore
-Abort = Abort
-Save = Save
-Link = Link
-NotAssigned = Not set
+Cancel = 취소
+Retry = 재시도
+Ignore = 무시
+Abort = 종료
+Save = 저장
+Link = 링크
+NotAssigned = 지정되지 않음
 
 #GLOBAL LONG
 l_Error = 오류: {0}
@@ -81,12 +81,12 @@ l_DisabledT = {0} 비활성화
 l_NewVersionAvailable = 새로운 버전의 "{0}" 사용 가능
 l_Name = 이름: {0}
 l_UpdateComplete = {0} 다운로드 완료:
-l_Err_ElementAlreadyExist = Element "{0}" already exists, please set a new unique value
-l_Err_ElementAlreadyExistInGrp = Element "{1}" already exists in group "{0}", required a unique value
-l_Err_IncorrectLink = Incorrect link: {0}
-l_Version = Version: {0}
-l_Date = Date: {0}
-l_Repository = Repository: {0}
+l_Err_ElementAlreadyExist = "{0}" 값이 이미 존재합니다. 다른 값으로 설정해주세요.
+l_Err_ElementAlreadyExistInGrp = "{1}" 값이 그룹 "{0}"에 이미 존재합니다. 중복되지 않는 값이 필요합니다.
+l_Err_IncorrectLink = 올바르지 않은 링크: {0}
+l_Version = 버전: {0}
+l_Date = 게시일: {0}
+l_Repository = 리포지토리: {0}
 
 #FileSystem
 File_MSG_CheckFile = [{0}] 파일 확인 중
@@ -109,23 +109,23 @@ Window_Tab_Log = 로그
 Window_Tab_SysUpdate = 업데이트
 Window_Tab_SysSettings = 시스템
 Window_Tab_About = 소개
-Window_Tab_Repository = Repository
+Window_Tab_Repository = 리포지토리
 
 #Window Menu
-Menu_Main_Modification = Modification
-Menu_Main_Modification_Enable = Enable (patch)
-Menu_Main_Modification_Disable = Disable (original)
-Menu_Main_Update = Localization
-Menu_Main_Update_FullInstall = Full install
-Menu_Main_ProcessKiller = Force сlose
-Menu_Main_ProcessKiller_Enabled = Enabled
-Menu_Main_ProcessKiller_Disabled = Disabled
-Menu_Main_ProcessKiller_KillProcess = Force close
-Menu_Main_MoveProfiles = Profiles
-Menu_Main_MoveProfiles_ForceClose = Force close
+Menu_Main_Modification = 언어 변경
+Menu_Main_Modification_Enable = 활성화 (패치)
+Menu_Main_Modification_Disable = 비활성화 (원본)
+Menu_Main_Update = 현지화
+Menu_Main_Update_FullInstall = 전체 설치
+Menu_Main_ProcessKiller = 강제 종료
+Menu_Main_ProcessKiller_Enabled = 켜짐
+Menu_Main_ProcessKiller_Disabled = 꺼짐
+Menu_Main_ProcessKiller_KillProcess = 강제 종료
+Menu_Main_MoveProfiles = 프로필
+Menu_Main_MoveProfiles_ForceClose = 강제 종료
 Menu_Main_HideApp = 프로그램 숨기기
 Menu_Main_ShowApp = 프로그램 나타내기
-Menu_Main_Exit = Exit
+Menu_Main_Exit = 닫기
 
 #Window other
 Core_MSG_BeginVerification = 코어 검증 시작
@@ -148,33 +148,33 @@ Profiles_CheckInfo_FinishInAdvance = 폴더 이름을 바꾸기 전 게임 및 �
 Profiles_Bottom_Info = 게임 폴더 이름을 빠르게 LIVE, PTU, EPTU 중 하나로 바꿀 수 있습니다.\n\n[강제 종료] 기능은 [LIVE, PTU, EPTU] 중 하나로 이름을 변경하기 전에 게임 런처 및 프로세스를 종료합니다. 이 기능은 [강제 종료]탭에 설정된 프로세서가 아닌 게임과 게임 런처 프로세스만 종료합니다. \n\n*LIVE - 공개 버전\n*PTU - 공개 테스트 버전\n*EPTU - 에보카티를 위한 비공개 테스트 버전
 
 #Tab SystemSettings
-CheckBox_UpdateAlert = Notify when new localization updates are available
-CheckBox_StartUp = Automatic boot at Windows startup
-CheckBox_HideWhenClose = Hide when close
+CheckBox_UpdateAlert = 새 현지화 업데이트가 가능할 때 알림
+CheckBox_StartUp = 컴퓨터 시작 시 자동 실행
+CheckBox_HideWhenClose = 닫을 때 숨기기
 
 #Tab repository
-Repository_ButtonName_ButtonSetRep = Set repository
-Repository_ButtonInfo_ButtonSetRep = Assigns the selected repository for subsequent work with it
-Repository_Label_SelectedRep = Active repository: {0}
-Repository_MSG_SelectCorrectRepository = To change the used repository, you need to select a specific repository
-Repository_ButtonInfo_AddGroup = Add new language group
-Repository_ButtonInfo_RemoveGroup = Remove selected language group
-Repository_ButtonInfo_EditGroup = Edit selected language group
-Repository_Label_LanguageGroupName = Language group name
-Repository_MSG_RemoveGroup = Do you want to remove the selected language group?
-Repository_Label_LanguageGroup = Add, remove, change language groups
-Repository_Label_Repository = Add, remove, change repositories
-Repository_ButtonInfo_AddRepository = Add new Repository
-Repository_ButtonInfo_RemoveRepository = Remove selected repository
-Repository_ButtonInfo_EditRepository = Edit selected Repository
-Repository_MSG_RemoveRepository = Would you like to delete the selected repository?
-Repository_Label_RepositoryLangGroup = Language group
-Repository_Label_RepositoryName = Repository name
-Repository_Label_RepositoryURL = Link to GIT repository project
-Repository_Label_RepositoryDescription = Repository description
-Repository_MSG_RepositoryLinkAlreadyExist = A repository using this link already exists:\n{0}\n\nThe repository using the given link:\n{1}
-Repository_MSG_YouCanNotRemoveActiveRepository = You cannot delete the active repository\nSet another repository as active and try deleting the current one
-Repository_MSG_YouCanNotRemoveActiveRepositoryGroup = You cannot delete the language group containing the active repository\Set another repository as active and repeat the deletion
+Repository_ButtonName_ButtonSetRep = 리포지토리 설정
+Repository_ButtonInfo_ButtonSetRep = 작업할 리포지토리를 설정합니다.
+Repository_Label_SelectedRep = 선택 리포지토리: {0}
+Repository_MSG_SelectCorrectRepository = 사용할 리포지토리를 변경하려면, 리포지토리를 선택해야 합니다.
+Repository_ButtonInfo_AddGroup = 새 언어 그룹 추가
+Repository_ButtonInfo_RemoveGroup = 언어 그룹 제거
+Repository_ButtonInfo_EditGroup = 언어 그룹 편집
+Repository_Label_LanguageGroupName = 언어 그룹 이름
+Repository_MSG_RemoveGroup = 언어 그룹을 제거하시겠습니까?
+Repository_Label_LanguageGroup = 언어 그룹 추가/제거/변경
+Repository_Label_Repository = 리포지토리 추가/제거/변경
+Repository_ButtonInfo_AddRepository = 리포지토리 추가
+Repository_ButtonInfo_RemoveRepository = 리포지토리 제거
+Repository_ButtonInfo_EditRepository = 리포지토리 편집
+Repository_MSG_RemoveRepository = 리포지토리를 제거하시겠습니까?
+Repository_Label_RepositoryLangGroup = 언어 그룹
+Repository_Label_RepositoryName = 리포지토리 이름
+Repository_Label_RepositoryURL = GIT 리포지토리 프로젝트 링크
+Repository_Label_RepositoryDescription = 리포지토리 설명
+Repository_MSG_RepositoryLinkAlreadyExist = {0}\n링크를 사용하는 리포지토리가 이미 있습니다\n\n같은 링크를 사용하는 리포지토리:\n{1}
+Repository_MSG_YouCanNotRemoveActiveRepository = 활성 리포지토리를 삭제할 수 없습니다\n다른 리포지토리를 선택하고 삭제하십시오
+Repository_MSG_YouCanNotRemoveActiveRepositoryGroup = 활성 리포지토리가 있는 언어 그룹을 삭제할 수 없습니다\n다른 리포지토리를 선택하고 삭제하십시오
 
 #Module PATCH
 Patch_MSG_Blocks = HEX_BLOCK1: [{0}]\nHEX_BLOCK2: [{1}]
@@ -195,21 +195,21 @@ Helper_MSG_RenameGameFolder = 폴더 이름이 변경 변경되었습니다.
 Helper_MSG_CoreVerificationOK = 코어가 확인 되었습니다.
 Helper_MSG_CoreVerificationError = 코어를 확인할 수 없습니다.
 Helper_MSG_CoreNotEnabled = 코어가 활성화되지 않았습니다.\n
-Helper_MSG_CoreErrorRecomendation = This error often occurs in the absence of the latest Windows updates related to methods for verifying the digital signature of the product. It is recommended to install updates and try again.\n\n코어가 수정되었습니다! 악성 콘텐츠가 포함될 수 있습니다. 이 언어팩을 사용하시겠습니까? \n\n언어팩은 신뢰할 수 있는 출처에서 다운로드 하는 것이 좋습니다.\n\n[{0}] 탭으로 이동한 후 [{1}] 버튼을 클릭하여 다운로드 할 수 있는 링크와 후기를 보내주시면 감사드립니다.\n\n
+Helper_MSG_CoreErrorRecomendation = 이 오류는 프로그램의 서명을 확인하는 방법과 관련한 윈도우즈 업데이트가 결여되어 일어날 수 있습니다. 업데이트를 설치하고 다시 시도해주시기 바랍니다.\n\n코어가 수정되었습니다! 악성 콘텐츠가 포함될 수 있습니다. 이 언어팩을 사용하시겠습니까? \n\n언어팩은 신뢰할 수 있는 출처에서 다운로드 하는 것이 좋습니다.\n\n[{0}] 탭으로 이동한 후 [{1}] 버튼을 클릭하여 다운로드 할 수 있는 링크와 후기를 보내주시면 감사드립니다.\n\n
 
 #Module GIT
 GIT_MSG_AccessDeniedLimit = 액세스가 거부되었습니다. 요청 회수 제한 초과\n{0}
 GIT_MSG_CannotLoadBuildList = 깃허브에서 실제 데이터를 로드 할 수 없습니다.\n{0}
-GIT_MSG_CannotSendStatRequest = Cannot send stat request\n{0}
-GIT_MSG_SendStatRequest = Stat request:
+GIT_MSG_CannotSendStatRequest = 상태 요청 전송 불가능\n{0}
+GIT_MSG_SendStatRequest = 상태 요청:
 
 #Watcher
-Watcher_MSG_FileChangedDisable = 트래킹된 파일이 삭제됨 트래킹이 비활성화됨.
-Watcher_MSG_FileChanged = 트래킹 된 파일이 변경되었습니다.
+Watcher_MSG_FileChangedDisable = 트래킹하는 파일이 삭제되어 트래킹이 비활성화됨.
+Watcher_MSG_FileChanged = 트래킹하는 파일이 변경되었습니다.
 Watcher_MSG_AddErrorFileNotExist = 파일 트래킹을 활성화 할 수 없거나 파일에 대한 엑세스 권한이나 파일이 없습니다.
 Watcher_MSG_AddErrorAlreadyInList = 파일 트래킹을 활성화 할 수 없습니다. 이미 트래킹 목록에 있습니다.\n\t{0}
 Watcher_MSG_AddOK = 파일 트래킹 활성화\n\t{0}
-Watcher_MSG_ErrorRequest = 요청을 수행 할 수 없습니다. 파일이 추적 목록에 없습니다.\n\t{0}
+Watcher_MSG_ErrorRequest = 요청을 수행할 수 없습니다. 파일이 추적 목록에 없습니다.\n\t{0}
 Watcher_MSG_ErrorAccess = 파일을 사용할 수 없거나 파일에 대한 엑세스 권한이나 파일이 없습니다.
 
 #SystemUpdate
@@ -219,10 +219,10 @@ SysUpdateCheck_Name_CurentVersion = 버전:
 SysUpdateCheck_Name_OnlineDate = 업데이트 날짜:
 SysUpdateCheck_Name_OnlineInformation = 추가 정보:
 SysUpdateCheck_Name_OnlineVersion = 버전:
-SysUpdate_Bottom_Info = 경고! 성공적으로 다운로드 되면 프로그램아 자동으로 업데이트 됩니다. \n[{0}]에 대한 액세스가 필요할 수 있습니다. \n\n폴더 경로: {1}
+SysUpdate_Bottom_Info = 경고! 성공적으로 다운로드 되면 프로그램이 자동으로 업데이트 됩니다. \n[{0}]에 대한 액세스가 필요할 수 있습니다. \n\n폴더 경로: {1}
 SysUpdate_MSG_SysUpdateTitle = 이름: 업데이트
 SysUpdate_MSG_ChangesInfo = 변경 내역은 [{0}] 탭 또는 깃허브 페이지에서 읽을 수 있습니다.
-SysUpdate_MSG_Downloadmanual = You can download the latest version of the program manually by following the link: {0}
+SysUpdate_MSG_Downloadmanual = 아래 링크에서 프로그램의 최신 버전을 다운로드 받을 수 있습니다.\n{0}
 
 #ProcessKiller
 ProcessKiller_CheckName_Enable = 강제 프로세스 종료 활성화
@@ -232,7 +232,7 @@ ProcessKiller_ButtonInfo_SetHotKey = 선택된 단축키 없음
 ProcessKiller_ListInfo_KeyModifier = 변경될 단축키가 선택되지 않음
 ProcessKiller_ButtonName_AddProcess = 프로세스 강제 종료 목록에 추가
 ProcessKiller_ButtonName_RemoveProcess = 프로세스 강제 종료 목록에서 제거
-ProcessKiller_Bottom_Info = 강제 종료를 사용하면 단축키를 눌러 등록한 프로세스를 종료 할 수 있습니다.\n닫을 수 없는 중단 된 프로그램을 닫아야 할 때 유요합니다.\n\n원활한 작동을 위해서는 관리자 권한으로 본 프로그램을 시작해야 합니다.\n한번에 하나 이상의 프로세스를 종료할 수 있습니다.
+ProcessKiller_Bottom_Info = 강제 종료를 사용하면 단축키를 눌러 등록한 프로세스를 종료 할 수 있습니다.\n닫을 수 없는 중단된 프로그램을 닫아야 할 때 유용합니다.\n\n원활한 작동을 위해서는 관리자 권한으로 본 프로그램을 시작해야 합니다.\n한번에 하나 이상의 프로세스를 종료할 수 있습니다.
 ProcessKiller_MSG_KillIgnore = 프로세스 강제 종료 - 무시됨
 ProcessKiller_MSG_Kill = 프로세스 강제 종료
 ProcessKiller_MSG_CallError = 호출 오류: {0}({1})
@@ -242,12 +242,12 @@ ProcessKiller_MSG_ProcessAlreadyInList = 프로세스가 이미 리스트에 있
 ProcessKiller_MSG_ProcessSelectFromList = 프로세스 선택
 
 #Localization
-Pack_CheckName_ShowAllBuild = Show all packages
+Pack_CheckName_ShowAllBuild = 팩 전체 보기
 Pack_ButtonName_DownloadPack = 팩 다운로드
 Pack_ButtonInfo_DownloadPack = 선택한 팩 다운로드 (코어 포함)
 Pack_ButtonName_PackInstallAll = 전체 설치
 Pack_ButtonInfo_PackInstallAll = 현지화와 글꼴
-Pack_Label_RepositoryName = Repository: {0}
+Pack_Label_RepositoryName = 리포지토리: {0}
 Pack_Bottom_Info = {0}을 다운로드하려면 드롭다운 메뉴에서 {1}을 선택하고 [{2}]를 클릭합니다. 다운로드 후 [{3}]을 클릭하여 필요한 파일을 게임 폴더로 옮깁니다. \n언어팩을 적용하려면 {4}을 활성화해야합니다. [{5}]탭으로 이동하여 [{6}]을 클릭합니다.\n\n참고: [Master]버전 언어팩은 개발 중인 최신 버전이며 문제를 일으킬 수 있습니다. (사용을 추천하지 않습니다.)
 Pack_MSG_ChangesInfo = 변경된 점: {0}
 Pack_MSG_CreateTempFolder = 다운로드된 언어팩을 위한 폴더 생성:\n\t{0}
@@ -261,43 +261,31 @@ Pack_MSG_ErrorNotSelectPack = 언어팩 선택이 필요합니다.
 Pack_MSG_ErrorAccessPackFile = 언어팩에 대한 액세스 권한이 없음:\n\t{0}
 Pack_MSG_ErrorUnpackPackToGame = 언어팩은 게임 폴더에 설치할 수 없습니다.\n\t원본 위치: {0}\n\t대상 경로: {1}
 
-#Modification!
+#Modification
 Modification_ButtonName_Path = {0} 선택
 Modification_ButtonName_Enable = {0} 활성화
 Modification_ButtonInfo_Enable = {0} 활성화
 Modification_ButtonName_Disable = {0} 비활성화
 Modification_ButtonInfo_Disable = {0} 비활성화
-Modification_Bottom_Info = 경고! [{0}] 탭에 나열된 모든 기능에 대한 사용으로 초래된 결과는 모두 사용자의 책임입니다. \n[{1}] - [{6}]를 누르면 CIG의 EULA를 위반하게 됩니다. \n\n{2}을 활성화 또는 비활성화 하려면 다운로드 해야합니다. [{4}] 탭으로 이동하여 표시된 지침을 따릅니다.\n\n참고: 새로운 {3}을 다운로드하고 설치할때 {5}을 활성화해야 합니다. 의도한 언어 패치를 위하여 적절한 {2}을 활성화합니다. 프로그램은 어떠한 게임파일을 변경하지 않으며 게임 실행시 메모리를 수정합니다.\n\n본 프로그램 제작자는 CIG에서 허용하지 않는 치트와 방법을 매우 반대합니다. 이 프로그램은 이러한 기능을 수행하지 않습니다.
+Modification_Bottom_Info = 경고! [{0}] 탭에 나열된 모든 기능에 대한 사용으로 초래된 결과는 모두 사용자의 책임입니다. \n[{1}] - [{6}]를 누르면 CIG의 EULA를 위반하게 됩니다. \n\n{2}을 활성화 또는 비활성화 하려면 다운로드 해야합니다. [{4}] 탭으로 이동하여 표시된 지침을 따릅니다.\n\n참고: 새로운 {3}을 다운로드하고 설치할때 {5}을 활성화해야 합니다. 의도한 언어 패치를 위하여 적절한 {2}을 활성화합니다. 프로그램은 어떠한 게임파일을 변경하지 않으며 게임 실행시 메모리를 수정합니다.\n\n본 프로그램 제작자는 CIG에서 허용하지 않는 치트나 여타 방법을 매우 반대합니다. 이 프로그램은 이러한 기능을 수행하지 않습니다.
 Modification_OpenFileDialog_GameFile = 게임 실행파일
 Modification_MSG_CoreNotFound = {0} 을/를 찾을 수 없습니다. 창 하단의 지침을 확인하십시오.
 Modification_MSG_VersionUnspecified = 알 수 없는 버전
-Modification_ListName_LocalizationType = Localization variations
+Modification_ListName_LocalizationType = 현지화 바리에이션
 
 #Launcher
-Launcher_ButtonName_LaunchGame = Launch game
-Launcher_MSG_LaunchGameProcessOK = Starting process:\n\tSuccess\n\tPath: {0}
-Launcher_MSG_LaunchGameProcessERR = Error when starting process:\n\tNumber: {0}\n\tDescription: {1}\n\tPath: {2}
-Launcher_MSG_LaunchGameEnableCore = Enable {0}
+Launcher_ButtonName_LaunchGame = 게임 실행
+Launcher_MSG_LaunchGameProcessOK = 프로세스 시작:\n\t성공\n\t경로: {0}
+Launcher_MSG_LaunchGameProcessERR = 프로세스 시작 오류:\n\t오류번호: {0}\n\t설명: {1}\n\t경로: {2}
+Launcher_MSG_LaunchGameEnableCore = {0} 활성화
+Launcher_Info_NoExeFile = [{0}] 버튼으로 게임 파일 경로를 선택
 
-Launcher_Info_NoExeFile = Specify the location of the game file by pressing [{0}
-Launcher_Info_NeedDisableCore = Disable {0} by pressing [{1}]
-Launcher_Info_NoSourceToken = Launch the game using the game launcher, boot to the main menu, then close the game.\nNote: The standard launch of the game generates a token, it will be used to start the game with the localization.
-Launcher_Info_NeedEnableCore = To start the game with localization - turn on {0} by pressing [{1}]
-Launcher_Info_Ready = Don't forget to run the game occasionally with the Launcher in order to update it\nand to generate a new token when {0} is running, if the game stops running
+Launcher_Info_NeedDisableCore = [{1}] 버튼으로 {0}를 비활성화해야 합니다.
+Launcher_Info_NoSourceToken = 게임 런처를 이용하여 게임을 켜 메인 메뉴까지 간 뒤 게임을 끕니다.\n참고: 일반적인 게임 실행이 패치를 적용하는 게임을 시작하는 데 필요한 토큰을 생성합니다.
+Launcher_Info_NeedEnableCore = 패치를 적용하여 게임을 시작하기 위해선 [{1}] 버튼을 눌러 {0}를 활성화해야 합니다.
+Launcher_Info_Ready = 런처를 통해 주기적으로 게임을 실행해 업데이트해야 합니다.\n{0}가 켜진 상태에서 게임을 실행했을 때 게임이 멈춘다면, 토큰을 갱신해야 합니다.
 
-Launcher_MSG_KillProcessQuestion = Game {0} is already running.\n\nDo you want to forcibly end the game process and restart it?
-
-
-#Launcher
-
-
-Launcher_Info_NeedDisableCore = Выключите {0} нажав [{1}]
-Launcher_Info_NoSourceToken = Запустите игру с помощью лаунчера, загрузитесь в главное меню, после этого завершите игру.\nПрим.: Штатный запуск игры генерирует ключ, он будет использован для запуска игры с локализацией.
-Launcher_Info_NeedEnableCore = Включите {0} нажав [{1}]
-Launcher_Info_Ready = Не забывайте изредка запускать игру через лаунчер с целью её обновления, а так же для генерации нового ключа при запущенном {0}
-
-Launcher_MSG_KillProcessQuestion = Игра {0} уже запущена.\n\nЖелаете принудительно завершить процесс игры и запустить игру заново?
-
+Launcher_MSG_KillProcessQuestion = {0} 게임이 이미 실행 중입니다.\n\n프로세스를 강제 종료하여 재시작하시겠습니까?
 
 #SysLanguage
 Pack_MSG_CreateLangFolder = 애플리케이션 언어팩을 위한 폴더 생성됨:\n\t{0}
